@@ -252,3 +252,212 @@ body {
         height: 90px;
     }
 }
+/* TELAS DE ATÉ 1024px */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    body {
+        margin: 0;
+        justify-content: center;
+    }
+
+    .mobile-page {
+        width: 100%;
+        max-width: 1024px;
+        min-height: 100vh;
+    }
+
+    .sidebar {
+        width: 65px;
+        min-width: 65px;
+        padding-top: 20px;
+    }
+
+    .logo {
+        width: 38px;
+        height: 38px;
+        font-size: 10px;
+    }
+
+    .menu {
+        gap: 26px;
+        margin-top: 35px;
+    }
+
+    .menu-icon {
+        font-size: 28px;
+    }
+
+    .content {
+        padding: 0 28px 25px;
+    }
+
+    .hero {
+        height: 390px;
+        min-height: 390px;
+    }
+
+    .hero-text {
+        top: 100px;
+        left: 15px;
+    }
+
+    .eyebrow {
+        font-size: 11px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+        max-width: 340px;
+    }
+
+    .spiderman {
+        height: 400px;
+        top: 15px;
+        right: 10px;
+    }
+
+    .hero-decoration {
+        width: 180px;
+        height: 180px;
+        top: 150px;
+        left: 30px;
+    }
+
+    .features {
+        gap: 18px;
+        padding-bottom: 25px;
+    }
+
+    .feature {
+        padding-left: 45%;
+        gap: 10px;
+    }
+
+    .feature-icon {
+        font-size: 18px;
+    }
+
+    .feature p {
+        font-size: 14px;
+    }
+
+    .section-title {
+        font-size: 22px;
+        margin-bottom: 14px;
+    }
+
+    .news-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 15px;
+    }
+
+    .news-card {
+        height: 200px;
+    }
+}
+
+/* TELAS DE 768px */
+
+@media (min-width: 600px) and (max-width: 768px) {
+
+    body {
+        margin: 0;
+        justify-content: center;
+    }
+
+    .mobile-page {
+        width: 100%;
+        max-width: 768px;
+        min-height: 100vh;
+    }
+
+    .sidebar {
+        width: 55px;
+        min-width: 55px;
+        padding-top: 16px;
+    }
+
+    .logo {
+        width: 32px;
+        height: 32px;
+        font-size: 9px;
+    }
+
+    .menu {
+        gap: 23px;
+        margin-top: 30px;
+    }
+
+    .menu-icon {
+        font-size: 25px;
+    }
+
+    .content {
+        padding: 0 18px 20px;
+    }
+
+    .hero {
+        height: 320px;
+        min-height: 320px;
+    }
+
+    .hero-text {
+        top: 95px;
+        left: 5px;
+    }
+
+    .eyebrow {
+        font-size: 9px;
+    }
+
+    .hero h1 {
+        font-size: 25px;
+        max-width: 260px;
+    }
+
+    .spiderman {
+        height: 320px;
+        top: 25px;
+        right: -5px;
+    }
+
+    .hero-decoration {
+        width: 140px;
+        height: 150px;
+        top: 140px;
+        left: 20px;
+    }
+
+    .features {
+        gap: 14px;
+        padding-bottom: 20px;
+    }
+
+    .feature {
+        padding-left: 40%;
+        gap: 8px;
+    }
+
+    .feature-icon {
+        font-size: 15px;
+    }
+
+    .feature p {
+        font-size: 11px;
+    }
+
+    .section-title {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .news-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .news-card {
+        height: 150px;
+    }
+}
